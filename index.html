@@ -11,21 +11,40 @@
     <!-- my javascript -->
     <script src="script.js" defer></script>
     <!-- fontawedome -->
-    <script src="https://kit.fontawesome.com/8c72697a52.js" crossorigin="anonymous" defer></script>
+    <script
+      src="https://kit.fontawesome.com/8c72697a52.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
     <title>Weather | App</title>
   </head>
   <body>
     <main class="container">
       <h1>Weather APP</h1>
       <div class="searchBar">
-        <input
-          type="text"
-          placeholder="Enter city name"
-        />
-        <button id="myButton"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <input type="text" placeholder="Enter city name" />
+        <button class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
       </div>
       <div class="card">
-        <p>Weather</p>
+        <div class="weather">
+          <i class="fa-solid fa-cloud-sun"></i>
+        </div>
+        <h2 class="temp">22°C</h2>
+        <h3 class="city">City</h3>
+        <div class="details">
+          <div class="col">
+            <i class="fa-solid fa-water"></i>
+            <p class="humidity">50%</p>
+            <p>humidity</p>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-wind"></i>
+            <p class="wind">20km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
       </div>
     </main>
   </body>
