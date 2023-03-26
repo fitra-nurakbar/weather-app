@@ -64,11 +64,13 @@
 }
 
 .card > h2 {
-  font-size: 4em;
+  font-size: 3em;
 }
+
 .card > h3 {
   font-size: 2em;
 }
+
 .weather > svg {
   font-size: 5em;
   margin-bottom: 20px;
@@ -80,15 +82,19 @@
   justify-content: space-between;
   line-height: 1.5em;
 }
+
 .col:nth-child(1) {
   text-align: start;
 }
+
 .col:nth-child(2) {
   text-align: end;
 }
+
 .col > svg {
   font-size: 2em;
 }
+
 .col > p:first-of-type {
   font-size: 1.5em;
 }
